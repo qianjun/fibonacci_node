@@ -4,7 +4,7 @@
   "description": "https://api.travis-ci.org/qianjun/fibonacci_node.svg?branch=master",
   "main": "fibonacci.js",
   "directories": {
-    "test": "phantomjs index.html --ssl-protocol=any --ignore-ssl-errors=true"
+    "test": "test"
   },
    "dependencies": {
     "benchmark": "^2.1.1",
@@ -19,7 +19,7 @@
     "mocha-phantomjs": "^4.1.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha-phantomjs index.html --ssl-protocol=any --ignore-ssl-errors=true"
   },
   "repository": {
     "type": "git",
