@@ -5,3 +5,7 @@ node_js:
  - '6.2.0'
 
 script: make test
+# services:
+#    mongodb
+service_name: travis-pro
+repo_token: q7QARwt6RFjGMjdR7vVUBfH0zkxi1WxrT
