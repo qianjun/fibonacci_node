@@ -1,0 +1,21 @@
+{
+  "name": "fibonacci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha-phantomjs index.html --ssl-protocol=any --ignore-ssl-errors=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.1",
+    "chai": "^3.5.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "should": "^11.1.0",
+    "supertest": "^2.0.0"
+  }
+}
