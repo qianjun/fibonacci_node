@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha-phantomjs index.html --ssl-protocol=any --ignore-ssl-errors=true"
   },
-  "author": "",
+  "author": "xiaolang",
   "license": "ISC",
   "dependencies": {
     "benchmark": "^2.1.1",
@@ -17,6 +17,7 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
     "should": "^11.1.0",
-    "supertest": "^2.0.0"
+    "supertest": "^2.0.0",
+    "mocha-phantomjs":"^4.1.0"
   }
 }
