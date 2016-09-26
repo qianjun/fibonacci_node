@@ -1,14 +1,12 @@
 {
   "name": "fibonacci",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha-phantomjs index.html --ssl-protocol=any --ignore-ssl-errors=true"
+  "description": "https://api.travis-ci.org/qianjun/fibonacci_node.svg?branch=master",
+  "main": "fibonacci.js",
+  "directories": {
+    "test": "phantomjs index.html --ssl-protocol=any --ignore-ssl-errors=true"
   },
-  "author": "xiaolang",
-  "license": "ISC",
-  "dependencies": {
+   "dependencies": {
     "benchmark": "^2.1.1",
     "chai": "^3.5.0",
     "express": "^4.14.0"
@@ -18,6 +16,19 @@
     "mocha": "^3.0.2",
     "should": "^11.1.0",
     "supertest": "^2.0.0",
-    "mocha-phantomjs":"^4.1.0"
-  }
+    "mocha-phantomjs": "^4.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianjun/fibonacci_node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qianjun/fibonacci_node/issues"
+  },
+  "homepage": "https://github.com/qianjun/fibonacci_node#readme"
 }
